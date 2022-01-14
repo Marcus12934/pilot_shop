@@ -1,0 +1,17 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 62.5%;
+}
+
+.navgrid {
+}
+
+.topnav {
+	display: grid;
+	list-style-type: none;
+	grid-template-columns: 5fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	padding: 0 20px;
+}
