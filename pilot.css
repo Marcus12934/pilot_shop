@@ -7,11 +7,32 @@ body {
 }
 
 .navgrid {
+	height: 50px;
+	background-color: rgb(105, 105, 105);
+	padding: 0px;
 }
 
 .topnav {
 	display: grid;
 	list-style-type: none;
 	grid-template-columns: 5fr 1fr 1fr 1fr 1fr 1fr 1fr;
-	padding: 0 20px;
+	padding: 17.5px 15% 0px;
+	font-size: 1rem;
+	text-decoration: none;
+	color: white;
+}
+
+.search {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.topnav a:link {
+	text-decoration: none;
+	color: white;
+}
+
+.topnav a:visited {
+	text-decoration: none;
+	color: white;
 }
