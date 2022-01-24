@@ -6,12 +6,32 @@ body {
 	font-size: 62.5%;
 }
 
-.navgrid {
-}
-
-.topnav {
+.topNav  {
 	display: grid;
 	list-style-type: none;
-	grid-template-columns: 5fr 1fr 1fr 1fr 1fr 1fr 1fr;
-	padding: 0 20px;
+	grid-template-columns: 3fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	padding: 10px 20px 0 15%;
+}
+
+.nav {
+	font-size: 1.1rem;
+	color: black;
+	text-decoration: none;
+	padding: 8px;
+}
+
+.nav:hover {
+	border-width: 2px;
+	border-style: solid;
+}
+
+.pilotShop {
+	font-size: 1.3rem;
+	color: black;
+	text-decoration: none;
+	padding: 10px;
+}
+
+.pilotShop span {
+	font-weight: bold;
 }
